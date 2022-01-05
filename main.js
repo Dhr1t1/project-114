@@ -4,8 +4,12 @@ function preload(){
 
 function setup(){
     canvas=createCanvas(300,300);
-    canvascenter;
+    canvas.center();
 }
 function draw(){
 
+}
+
+function take_snapshot(){
+    save('lipstickPicture.png')
 }
